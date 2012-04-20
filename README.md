@@ -10,4 +10,5 @@ Usage
 
 $doc = new Readability();
 $doc->input('http://google.com');
+$doc->init();
 $content = $doc->getContent();
